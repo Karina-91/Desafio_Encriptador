@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Textos - Drag and Drop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Encriptador</h1>
+        </header>
+        <main>
+            <section class="input-section">
+                <textarea id="input-text" placeholder="Escribe aquí tu mensaje..."></textarea>
+            </section>
+            <section class="dropzones">
+                <div id="encrypt-zone" class="dropzone">Desliza para Encriptar</div>
+                <div id="decrypt-zone" class="dropzone">Desliza para Desencriptar</div>
+            </section>
+            <section class="output-section">
+                <p id="output-text">El resultado aparecerá aquí...</p>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
